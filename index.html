@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap">
+    <!-- Remixico icon link -->
+    <link rel="stylesheet" href="assets/remixicon/remixicon.css">
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- preload images -->
+    <link rel="preload" as="image" href="assets/images/logo.jpg">
+    <link rel="preload" as="image" href="assets/images/logo.jpg">
+    <link rel="preload" as="image" href="assets/images/logo.jpg">
+</head>
+<body id="top">
+
+<!-- 
+ #HEADER
+-->
+<header class="header" data-header>
+    <div class="container">
+
+        <a href="#" class="logo">
+            <img src="assets/images/logo.jpg" width="119" height="37" alt="LOGO">
+        </a>
+
+        <nav class="navbar " data-navbar>
+
+            <div class="navbar-top">
+                <a href="#" class="logo">
+                    <img src="assets/images/logo.jpg" width="119" height="37" alt="LOGO">
+                </a>
+
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler-btn>
+                    <i class="ri-close-line" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <ul class="navbar-list">
+                
+                <li>
+                    <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+                </li>
+
+                <li>
+                    <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Topics</a>
+                </li>
+
+                <li>
+                    <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+                </li>
+
+                <li>
+                    <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+                </li>
+
+                <li>
+                    <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+                </li>
+
+            </ul>
+
+            <div class="navbar-bottom">
+
+                <div class="profile-card">
+                    <img src="assets/images/1703084177405.jpg" width="48" height="48" alt="Melchizedek" class="profile-banner"/>
+
+                    <div>
+                        <p class="card-title">Hello Melchizedek !</p>
+
+                        <p class="card-subtitle">
+                            You have 3 new messages
+                        </p>
+                    </div>
+                </div>
+
+                <ul class="link-list">
+
+                    <li>
+                        <a href="#" class="navbar-bottom-link hover-1">Profile</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-bottom-link hover-1">Account Setting</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <p class="copyright-text">
+                Copyright 2024 &copy; Melchizedek - Personal Blog Template.
+                Developed by amosontech.com
+            </p>
+
+        </nav>
+
+        <a href="#" class="btn btn-primary">
+            Subscribe
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler-btn>
+            <i class="ri-align-justify" aria-hidden="true"></i>
+        </button>
+
+    </div>
+</header>
+
+<main>
+    <article>
+
+        <!-- 
+            #HERO
+        -->
+
+         <section class="hero" id="home" aria-label="home">
+            <div class="container">
+
+                <div class="hero-content">
+
+                    <p class="hero-subtitle">Hello Everyone!</p>
+
+                    <h1 class="headline headline-1 section-title">
+                        I'm <span class="span">Melchizedek Amos</span>
+                    </h1>
+
+                    <p class="hero-text">
+                        I use animation as a third dimension by which to simplify experience and kudding throgh each and every interaction.
+                        I'm not adding motion just to spruce thing up, but doing it in ways that.
+                    </p>
+
+                    <div class="input-wrapper">
+
+                        <input type="email" name="email_address" placeholder="Type your email address" class="input-field" required />
+
+                        <button class="btn btn-primary">
+                            <span class="span">Subscribe</span>
+
+                            <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-banner">
+
+                    <img src="assets/images/Snapchat-143031176.jpg" width="327" height="490" alt="HERO IMAGE" class="w-100">
+
+                </div>
+
+            </div>
+         </section>
+
+         
+        <!-- 
+            #TOPICS
+        -->
+
+        <section class="topics" id="topics" aria-labelledby="topic-label">
+            <div class="container">
+
+                <div class="card topic-card">
+
+                    <div class="card-content">
+
+                        <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                            Hot topics
+                        </h2>
+
+                        <p class="card-text">
+                            Don't miss out on the latest news about Travel tips, Hotels review, Food guide....
+                        </p>
+                        
+                        <div class="btn-group">
+                            <button class="btn-icon" aria-label="previous" data-slider-prev>
+                                <i class="ri-arrow-left-line" aria-hidden="true"></i>
+                            </button>
+
+                            <button class="btn-icon" aria-label="next" data-slider-next>
+                                <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    
+
+                    <div class="slider" data-slider>
+                        <ul class="slider-list" data-slider-contaner>
+                            
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                                        <img src="assets/images/1698900231163.jpg" width="507" height="618" loading="lazy" alt="Technology" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Technology</span>
+
+                                        <p class="slider-subtitle">38 Articles</p>
+                                    </div>
+
+                                </a>
+                            </li>
+
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                                        <img src="assets/images/FB_IMG_17032528552877643.jpg" width="507" height="618" loading="lazy" alt="Web Development" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Web Development</span>
+
+                                        <p class="slider-subtitle">63 Articles</p>
+                                    </div>
+
+                                </a>
+                            </li>
+                            
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                                        <img src="assets/images/logo.jpg" width="507" height="618" loading="lazy" alt="Design" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Design</span>
+
+                                        <p class="slider-subtitle">78 Articles</p>
+                                    </div>
+
+                                </a>
+                            </li>
+                            
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                                        <img src="assets/images/girlsvg.svg" width="507" height="618" loading="lazy" alt="Animation" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Animation</span>
+
+                                        <p class="slider-subtitle">78 Articles</p>
+                                    </div>
+
+                                </a>
+                            </li>
+                            
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                                        <img src="assets/images/Cat_Fish.jpg" width="507" height="618" loading="lazy" alt="Machine Learning" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Machine Learning</span>
+
+                                        <p class="slider-subtitle">78 Articles</p>
+                                    </div>
+
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 
+            #FEATURED POST
+        -->
+
+        <section class="section feature" aria-label="feature" id="featured">
+            <div class="container">
+
+                <h2 class="headline headline-2 section-title">
+                    <span class="span">Editor's picked</span>
+                </h2>
+
+                <p class="section-text">
+                    Featured and highly and rated articles
+                </p>
+
+                <ul class="feature-list">
+                    
+                    <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="assets/images/1703084177405.jpg" alt="Self observing is the first step of inner unfolding" height="903" width="1602" class="img-cover" loading="lazy"/>
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover hover-2">#Travel</a>
+                                        <a href="#" class="span hover hover-2">#Lifestyle</a>
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <i class="ri-time-line" aria-hidden="true"></i>
+
+                                        <span class="span">3 mins read</span>
+                                    </div>
+                                </div>
+
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        Self observing is the first step of inner unfolding
+                                    </a>
+                                </h3>
+
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <img src="assets/images/Snapchat-907546102.jpg" width="48" height="48" loading="lazy" alt="Aurthur" class="profile-banner"/>
+
+                                        <div>
+                                            <p class="card-title">Melchizedek</p>
+
+                                            <p class="card-subtitle">25 Nov 2022</p>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="card-btn ">Read more</a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="assets/images/FB_IMG_17032528552877643.jpg" alt="Self observing is the first step of inner unfolding" height="903" width="1602" class="img-cover" loading="lazy"/>
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover hover-2">#Travel</a>
+                                        <a href="#" class="span hover hover-2">#Lifestyle</a>
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <i class="ri-time-line" aria-hidden="true"></i>
+
+                                        <span class="span">3 mins read</span>
+                                    </div>
+                                </div>
+
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        Self observing is the first step of inner unfolding
+                                    </a>
+                                </h3>
+
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <img src="assets/images/Snapchat-907546102.jpg" width="48" height="48" loading="lazy" alt="Aurthur" class="profile-banner"/>
+
+                                        <div>
+                                            <p class="card-title">Melchizedek</p>
+
+                                            <p class="card-subtitle">25 Nov 2022</p>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="card-btn ">Read more</a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="assets/images/FB_IMG_17045194865178480.jpg" alt="Self observing is the first step of inner unfolding" height="903" width="1602" class="img-cover" loading="lazy"/>
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover hover-2">#Travel</a>
+                                        <a href="#" class="span hover hover-2">#Lifestyle</a>
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <i class="ri-time-line" aria-hidden="true"></i>
+
+                                        <span class="span">3 mins read</span>
+                                    </div>
+                                </div>
+
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        Self observing is the first step of inner unfolding
+                                    </a>
+                                </h3>
+
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <img src="assets/images/Snapchat-907546102.jpg" width="48" height="48" loading="lazy" alt="Aurthur" class="profile-banner"/>
+
+                                        <div>
+                                            <p class="card-title">Melchizedek</p>
+
+                                            <p class="card-subtitle">25 Nov 2022</p>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="card-btn ">Read more</a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="assets/images/logo.jpg" alt="Self observing is the first step of inner unfolding" height="903" width="1602" class="img-cover" loading="lazy"/>
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover hover-2">#Travel</a>
+                                        <a href="#" class="span hover hover-2">#Lifestyle</a>
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <i class="ri-time-line" aria-hidden="true"></i>
+
+                                        <span class="span">3 mins read</span>
+                                    </div>
+                                </div>
+
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        Self observing is the first step of inner unfolding
+                                    </a>
+                                </h3>
+
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <img src="assets/images/Snapchat-907546102.jpg" width="48" height="48" loading="lazy" alt="Aurthur" class="profile-banner"/>
+
+                                        <div>
+                                            <p class="card-title">Melchizedek</p>
+
+                                            <p class="card-subtitle">25 Nov 2022</p>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="card-btn ">Read more</a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="assets/images/girlsvg.svg" alt="Self observing is the first step of inner unfolding" height="903" width="1602" class="img-cover" loading="lazy"/>
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover hover-2">#Travel</a>
+                                        <a href="#" class="span hover hover-2">#Lifestyle</a>
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <i class="ri-time-line" aria-hidden="true"></i>
+
+                                        <span class="span">3 mins read</span>
+                                    </div>
+                                </div>
+
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        Self observing is the first step of inner unfolding
+                                    </a>
+                                </h3>
+
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <img src="assets/images/Snapchat-907546102.jpg" width="48" height="48" loading="lazy" alt="Aurthur" class="profile-banner"/>
+
+                                        <div>
+                                            <p class="card-title">Melchizedek</p>
+
+                                            <p class="card-subtitle">25 Nov 2022</p>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="card-btn ">Read more</a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </li>
+                    
+                </ul>
+
+                <a href="#" class="btn btn-secondary">
+                    <span class="span">Show More Posts</span>
+
+                    <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- 
+            #POPULAR TAGS
+        -->
+
+        <section class="tags" aria-labelledby="tag-label">
+            <div class="container">
+
+                <h2 class="headline headline-2 section-title" id="tag-label">
+                    <span class="span">Popular Tags</span>
+                </h2>
+
+                <p class="section-text">
+                    Most searched keywords
+                </p>
+
+                <ul class="grid-list">
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/car.jpg" loading="lazy" height="32" width="32" alt="Travel"/>
+
+                            <p class="btn-text">Travel</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/cars1.jpg" loading="lazy" height="32" width="32" alt="Lifestyle"/>
+
+                            <p class="btn-text">Lifestyle</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/cars2.jpg" loading="lazy" height="32" width="32" alt="Technology"/>
+
+                            <p class="btn-text">Technology</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/tech_typewriter.jpg" loading="lazy" height="32" width="32" alt="Programming"/>
+
+                            <p class="btn-text">Programming</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/hamburger.jpg" loading="lazy" height="32" width="32" alt="Food"/>
+
+                            <p class="btn-text">Food</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/girlsvg.svg" loading="lazy" height="32" width="32" alt="Animation"/>
+
+                            <p class="btn-text">Travel</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/car.jpg" loading="lazy" height="32" width="32" alt="Travel"/>
+
+                            <p class="btn-text">Travel</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/cars1.jpg" loading="lazy" height="32" width="32" alt="Lifestyle"/>
+
+                            <p class="btn-text">Lifestyle</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/cars2.jpg" loading="lazy" height="32" width="32" alt="Technology"/>
+
+                            <p class="btn-text">Technology</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/tech_typewriter.jpg" loading="lazy" height="32" width="32" alt="Programming"/>
+
+                            <p class="btn-text">Programming</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/hamburger.jpg" loading="lazy" height="32" width="32" alt="Food"/>
+
+                            <p class="btn-text">Food</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="assets/images/girlsvg.svg" loading="lazy" height="32" width="32" alt="Animation"/>
+
+                            <p class="btn-text">Travel</p>
+                        </button>
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- 
+            #POPULAR TAGS
+        -->
+
+        <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+            <div class="container">
+
+                <div class="post-main">
+
+                    <h2 class="headline headline-2 section-title">
+                        <span class="span">Recent posts</span>
+                    </h2>
+
+                    <p class="section-text">
+                        Don't miss the latest trends
+                    </p>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="recent-post-card">
+
+                                <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                    <img src="assets/images/Snapchat-2102015712.jpg" width="271" height="258" alt="Helpful Tips for working from Home as a freelancer" class="img-cover" />
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <a href="#" class="card-badge">Working Tips</a>
+
+                                    <h3 class="headline headline-3 card-title">
+                                        <a href="#" class="link hover-2">
+                                            Helpful Tips for working from Home as a Freelancer
+                                        </a>
+                                    </h3>
+
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eius nam esse pariatur enim aut, repudiandae sint autem labore, minima soluta dicta asperiores veritatis qui voluptatum. Necessitatibus voluptas ipsa explicabo?
+                                    </p>
+
+                                    <div class="card-wrapper">
+                                        <div class="card-tag">
+                                            <a href="#" class="span hover-2">#Travel</a>
+                                            <a href="#" class="span hover-2">#Lifestyle</a>
+                                        </div>
+
+                                        <div class="wrapper">
+                                            <i class="ri-time-line" aria-hidden="true"></i>
+
+                                            <span class="span">3 mins view</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="recent-post-card">
+
+                                <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                    <img src="assets/images/Snapchat-2102015712.jpg" width="271" height="258" alt="Helpful Tips for working from Home as a freelancer" class="img-cover" />
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <a href="#" class="card-badge">Working Tips</a>
+
+                                    <h3 class="headline headline-3 card-title">
+                                        <a href="#" class="link hover-2">
+                                            Helpful Tips for working from Home as a Freelancer
+                                        </a>
+                                    </h3>
+
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eius nam esse pariatur enim aut, repudiandae sint autem labore, minima soluta dicta asperiores veritatis qui voluptatum. Necessitatibus voluptas ipsa explicabo?
+                                    </p>
+
+                                    <div class="card-wrapper">
+                                        <div class="card-tag">
+                                            <a href="#" class="span hover-2">#Travel</a>
+                                            <a href="#" class="span hover-2">#Lifestyle</a>
+                                        </div>
+
+                                        <div class="wrapper">
+                                            <i class="ri-time-line" aria-hidden="true"></i>
+
+                                            <span class="span">3 mins view</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="recent-post-card">
+
+                                <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                    <img src="assets/images/Snapchat-2102015712.jpg" width="271" height="258" alt="Helpful Tips for working from Home as a freelancer" class="img-cover" />
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <a href="#" class="card-badge">Working Tips</a>
+
+                                    <h3 class="headline headline-3 card-title">
+                                        <a href="#" class="link hover-2">
+                                            Helpful Tips for working from Home as a Freelancer
+                                        </a>
+                                    </h3>
+
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eius nam esse pariatur enim aut, repudiandae sint autem labore, minima soluta dicta asperiores veritatis qui voluptatum. Necessitatibus voluptas ipsa explicabo?
+                                    </p>
+
+                                    <div class="card-wrapper">
+                                        <div class="card-tag">
+                                            <a href="#" class="span hover-2">#Travel</a>
+                                            <a href="#" class="span hover-2">#Lifestyle</a>
+                                        </div>
+
+                                        <div class="wrapper">
+                                            <i class="ri-time-line" aria-hidden="true"></i>
+
+                                            <span class="span">3 mins view</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="recent-post-card">
+
+                                <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                    <img src="assets/images/Snapchat-2102015712.jpg" width="271" height="258" alt="Helpful Tips for working from Home as a freelancer" class="img-cover" />
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <a href="#" class="card-badge">Working Tips</a>
+
+                                    <h3 class="headline headline-3 card-title">
+                                        <a href="#" class="link hover-2">
+                                            Helpful Tips for working from Home as a Freelancer
+                                        </a>
+                                    </h3>
+
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eius nam esse pariatur enim aut, repudiandae sint autem labore, minima soluta dicta asperiores veritatis qui voluptatum. Necessitatibus voluptas ipsa explicabo?
+                                    </p>
+
+                                    <div class="card-wrapper">
+                                        <div class="card-tag">
+                                            <a href="#" class="span hover-2">#Travel</a>
+                                            <a href="#" class="span hover-2">#Lifestyle</a>
+                                        </div>
+
+                                        <div class="wrapper">
+                                            <i class="ri-time-line" aria-hidden="true"></i>
+
+                                            <span class="span">3 mins view</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="recent-post-card">
+
+                                <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                    <img src="assets/images/Snapchat-2102015712.jpg" width="271" height="258" alt="Helpful Tips for working from Home as a freelancer" class="img-cover" />
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <a href="#" class="card-badge">Working Tips</a>
+
+                                    <h3 class="headline headline-3 card-title">
+                                        <a href="#" class="link hover-2">
+                                            Helpful Tips for working from Home as a Freelancer
+                                        </a>
+                                    </h3>
+
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eius nam esse pariatur enim aut, repudiandae sint autem labore, minima soluta dicta asperiores veritatis qui voluptatum. Necessitatibus voluptas ipsa explicabo?
+                                    </p>
+
+                                    <div class="card-wrapper">
+                                        <div class="card-tag">
+                                            <a href="#" class="span hover-2">#Travel</a>
+                                            <a href="#" class="span hover-2">#Lifestyle</a>
+                                        </div>
+
+                                        <div class="wrapper">
+                                            <i class="ri-time-line" aria-hidden="true"></i>
+
+                                            <span class="span">3 mins view</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="recent-post-card">
+
+                                <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                    <img src="assets/images/Snapchat-2102015712.jpg" width="271" height="258" alt="Helpful Tips for working from Home as a freelancer" class="img-cover" />
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <a href="#" class="card-badge">Working Tips</a>
+
+                                    <h3 class="headline headline-3 card-title">
+                                        <a href="#" class="link hover-2">
+                                            Helpful Tips for working from Home as a Freelancer
+                                        </a>
+                                    </h3>
+
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eius nam esse pariatur enim aut, repudiandae sint autem labore, minima soluta dicta asperiores veritatis qui voluptatum. Necessitatibus voluptas ipsa explicabo?
+                                    </p>
+
+                                    <div class="card-wrapper">
+                                        <div class="card-tag">
+                                            <a href="#" class="span hover-2">#Travel</a>
+                                            <a href="#" class="span hover-2">#Lifestyle</a>
+                                        </div>
+
+                                        <div class="wrapper">
+                                            <i class="ri-time-line" aria-hidden="true"></i>
+
+                                            <span class="span">3 mins view</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="recent-post-card">
+
+                                <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                    <img src="assets/images/Snapchat-2102015712.jpg" width="271" height="258" alt="Helpful Tips for working from Home as a freelancer" class="img-cover" />
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <a href="#" class="card-badge">Working Tips</a>
+
+                                    <h3 class="headline headline-3 card-title">
+                                        <a href="#" class="link hover-2">
+                                            Helpful Tips for working from Home as a Freelancer
+                                        </a>
+                                    </h3>
+
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eius nam esse pariatur enim aut, repudiandae sint autem labore, minima soluta dicta asperiores veritatis qui voluptatum. Necessitatibus voluptas ipsa explicabo?
+                                    </p>
+
+                                    <div class="card-wrapper">
+                                        <div class="card-tag">
+                                            <a href="#" class="span hover-2">#Travel</a>
+                                            <a href="#" class="span hover-2">#Lifestyle</a>
+                                        </div>
+
+                                        <div class="wrapper">
+                                            <i class="ri-time-line" aria-hidden="true"></i>
+
+                                            <span class="span">3 mins view</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <nav aria-label="pagination" class="pagination">
+
+                        <a href="#" class="pagination-btn" aria-label="previous page">
+                            <i class="ri-arrow-left-line" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="#" class="pagination-btn">1</a>
+                        <a href="#" class="pagination-btn">2</a>
+                        <a href="#" class="pagination-btn">3</a>
+                        <a href="#" class="pagination-btn" aria-label="more page">...</a>
+                        <a href="#" class="pagination-btn" aria-label="next page">
+                            <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                        </a>
+
+                    </nav>
+
+                </div>
+
+                <div class="post-aside grid-list">
+                    
+                    <div class="card aside-card">
+
+                        <h3 class="headline headline-2 aside-title">
+                            <span class="span">Popular Posts</span>
+                        </h3>
+
+                        <ul class="popular-list">
+
+                            <li>
+                                <div class="popular-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                                        <img src="assets/images/Snapchat-312154064.jpg" alt="Creating is a privilage but its also a gift" height="64" width="64" loading="lazy" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+
+                                        <h4 class="headline headline-4 card-title">
+                                            <a href="#" class="link hover-2">
+                                                Creating is a privilage but its also a gift
+                                            </a>
+                                        </h4>
+
+                                        <div class="wrapper">
+                                            <p class="card-subtitle">15 mins read</p>
+
+                                            <time class="publish-date" datetime="2024-06-19">19 June 2022</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="popular-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                                        <img src="assets/images/Snapchat-312154064.jpg" alt="Creating is a privilage but its also a gift" height="64" width="64" loading="lazy" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+
+                                        <h4 class="headline headline-4 card-title">
+                                            <a href="#" class="link hover-2">
+                                                Creating is a privilage but its also a gift
+                                            </a>
+                                        </h4>
+
+                                        <div class="wrapper">
+                                            <p class="card-subtitle">15 mins read</p>
+
+                                            <time class="publish-date" datetime="2024-06-19">19 June 2022</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="popular-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                                        <img src="assets/images/Snapchat-312154064.jpg" alt="Creating is a privilage but its also a gift" height="64" width="64" loading="lazy" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+
+                                        <h4 class="headline headline-4 card-title">
+                                            <a href="#" class="link hover-2">
+                                                Creating is a privilage but its also a gift
+                                            </a>
+                                        </h4>
+
+                                        <div class="wrapper">
+                                            <p class="card-subtitle">15 mins read</p>
+
+                                            <time class="publish-date" datetime="2024-06-19">19 June 2022</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="popular-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                                        <img src="assets/images/Snapchat-312154064.jpg" alt="Creating is a privilage but its also a gift" height="64" width="64" loading="lazy" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+
+                                        <h4 class="headline headline-4 card-title">
+                                            <a href="#" class="link hover-2">
+                                                Creating is a privilage but its also a gift
+                                            </a>
+                                        </h4>
+
+                                        <div class="wrapper">
+                                            <p class="card-subtitle">15 mins read</p>
+
+                                            <time class="publish-date" datetime="2024-06-19">19 June 2022</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="popular-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                                        <img src="assets/images/Snapchat-312154064.jpg" alt="Creating is a privilage but its also a gift" height="64" width="64" loading="lazy" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+
+                                        <h4 class="headline headline-4 card-title">
+                                            <a href="#" class="link hover-2">
+                                                Creating is a privilage but its also a gift
+                                            </a>
+                                        </h4>
+
+                                        <div class="wrapper">
+                                            <p class="card-subtitle">15 mins read</p>
+
+                                            <time class="publish-date" datetime="2024-06-19">19 June 2022</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="popular-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                                        <img src="assets/images/Snapchat-312154064.jpg" alt="Creating is a privilage but its also a gift" height="64" width="64" loading="lazy" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+
+                                        <h4 class="headline headline-4 card-title">
+                                            <a href="#" class="link hover-2">
+                                                Creating is a privilage but its also a gift
+                                            </a>
+                                        </h4>
+
+                                        <div class="wrapper">
+                                            <p class="card-subtitle">15 mins read</p>
+
+                                            <time class="publish-date" datetime="2024-06-19">19 June 2022</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    
+                    <div class="card aside-card">
+
+                        <h3 class="headline headline-2 aside-title">
+                            <span class="span">Last Comment</span>
+                        </h3>
+
+                        <ul class="comment-list">
+
+                            <li>
+                                <div class="comment-card">
+
+                                    <blockquote class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptatibus adipisci? Corrupti exercitationem laudantium dolores ipsa obcaecati. Laudantium, voluptas. Sunt ipsam debitis ad perspiciatis tempore voluptatum eius explicabo asperiores rem.
+                                    </blockquote>
+
+                                    <div class="profile-card">
+                                        <figure class="profile-banner img-holder">
+                                            <img src="assets/images/FB_IMG_16207545225328042.jpg" width="32" height="32" loading="lazy" alt="Melchizedek Amos"/>
+                                        </figure>
+
+                                        <div>
+                                            <p class="card-title">Melchizedek Amos</p>
+
+                                            <time class="card-date" datetime="2024-06-19">19 June 2024</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="comment-card">
+
+                                    <blockquote class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptatibus adipisci? Corrupti exercitationem laudantium dolores ipsa obcaecati. Laudantium, voluptas. Sunt ipsam debitis ad perspiciatis tempore voluptatum eius explicabo asperiores rem.
+                                    </blockquote>
+
+                                    <div class="profile-card">
+                                        <figure class="profile-banner img-holder">
+                                            <img src="assets/images/FB_IMG_16207545225328042.jpg" width="32" height="32" loading="lazy" alt="Melchizedek Amos"/>
+                                        </figure>
+
+                                        <div>
+                                            <p class="card-title">Melchizedek Amos</p>
+
+                                            <time class="card-date" datetime="2024-06-19">19 June 2024</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="comment-card">
+
+                                    <blockquote class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptatibus adipisci? Corrupti exercitationem laudantium dolores ipsa obcaecati. Laudantium, voluptas. Sunt ipsam debitis ad perspiciatis tempore voluptatum eius explicabo asperiores rem.
+                                    </blockquote>
+
+                                    <div class="profile-card">
+                                        <figure class="profile-banner img-holder">
+                                            <img src="assets/images/FB_IMG_16207545225328042.jpg" width="32" height="32" loading="lazy" alt="Melchizedek Amos"/>
+                                        </figure>
+
+                                        <div>
+                                            <p class="card-title">Melchizedek Amos</p>
+
+                                            <time class="card-date" datetime="2024-06-19">19 June 2024</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="comment-card">
+
+                                    <blockquote class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, voluptatibus adipisci? Corrupti exercitationem laudantium dolores ipsa obcaecati. Laudantium, voluptas. Sunt ipsam debitis ad perspiciatis tempore voluptatum eius explicabo asperiores rem.
+                                    </blockquote>
+
+                                    <div class="profile-card">
+                                        <figure class="profile-banner img-holder">
+                                            <img src="assets/images/FB_IMG_16207545225328042.jpg" width="32" height="32" loading="lazy" alt="Melchizedek Amos"/>
+                                        </figure>
+
+                                        <div>
+                                            <p class="card-title">Melchizedek Amos</p>
+
+                                            <time class="card-date" datetime="2024-06-19">19 June 2024</time>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="card aside-card insta-card">
+
+                        <a href="#" class="logo">
+                            <img src="assets/images/logo.jpg" alt="LOGO" width="119" height="37" loading="lazy" class="">
+                        </a>
+
+                        <p class="card-text">
+                            Follow us on instagram
+                        </p>
+
+                        <ul class="insta-list">
+
+                            <li>
+                                <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                    <img src="assets/images/tech_typewriter.jpg" width="276" height="277" loading="lazy" alt="" class="img-cover">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                    <img src="assets/images/Snapchat-1067299961.jpg" width="276" height="277" loading="lazy" alt="" class="img-cover">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                    <img src="assets/images/Snapchat-143031176.jpg" width="276" height="277" loading="lazy" alt="" class="img-cover">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                    <img src="assets/images/FB_IMG_17032528552877643.jpg" width="276" height="277" loading="lazy" alt="" class="img-cover">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                    <img src="assets/images/FB_IMG_17087673137896719.jpg" width="276" height="277" loading="lazy" alt="" class="img-cover">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                    <img src="assets/images/Snapchat-907546102.jpg" width="276" height="277" loading="lazy" alt="" class="img-cover">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                    <img src="assets/images/girlsvg.svg" width="276" height="277" loading="lazy" alt="" class="img-cover">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                    <img src="assets/images/FB_IMG_17045194865178480.jpg" width="276" height="277" loading="lazy" alt="" class="img-cover">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                    <img src="assets/images/Snapchat-2102015712.jpg" width="276" height="277" loading="lazy" alt="" class="img-cover">
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+
+    </article>
+</main>
+<!-- 
+    #POPULAR TAGS
+-->
+
+<footer>
+    <div class="container">
+
+        <div class="card footer">
+
+            <div class="section footer-top">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <img src="assets/images/logo.jpg" width="119" height="37" loading="lazy" alt="LOGO"/>
+                    </a>
+
+                    <p class="footer-text">
+                        When an unknown prnoto sans took a galley and scrambled it to make a specimen boot not only five
+                        When an unknown prnoto sans took a galley and scrambled it to make a specimen boot not only five
+                    </p>
+
+                    <p class="footer-list-title">Address</p>
+
+                    <address class="footer-text address">
+                        79 Baju street <br>
+                        Nigeria Taraba state
+                    </address>
+
+                </div>
+
+                <div class="footer-list">
+
+                    <p class="footer-list-title">Categories</p>
+
+                    <ul>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">PHP</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">JAVASCRIPT</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">PYTHON</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">HTML & CSS</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">REACT</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">JAVA</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">AI</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">MACHINE LEARNING</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">JAVA</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">JAVA</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">JAVA</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">AI</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-list">
+
+                    <p class="footer-list-title">Newsletter</p>
+
+                    <p class="footer-text">
+                        Sign up to be the first to recieve the latest stories inspirint us, case studies, and industry news.
+                    </p>
+
+                    <div class="input-wrapper">
+                        <input type="text" name="name" id="name" class="input-field" placeholder="Your name" required autocomplete="off"/>
+
+                        <i class="ri-user-line" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <input type="email" name="email" id="email" class="input-field" placeholder="Email Address" required autocomplete="off"/>
+
+                        <i class="ri-mail-unread-line" aria-hidden="true"></i>
+                    </div>
+
+                    <a href="#" class="btn btn-primary">
+                        <span class="span">
+                            Subscribe
+                        </span>
+
+                        <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p class="copyright">
+                    &copy; Developed by <a href="#" class="copyright-link">amosontech</a>
+                </p>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <i class="ri-twitter-fill" aria-hidden="true"></i>
+
+                            <span class="span">
+                                Twitter
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <i class="ri-linkedin-box-line" aria-hidden="true"></i>
+
+                            <span class="span">
+                                LinkeIn
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <i class="ri-instagram-line" aria-hidden="true"></i>
+
+                            <span class="span">
+                                Instagram
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+
+
+<!-- 
+    #BACK TO TOP
+-->
+<a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <i class="ri-arrow-up-line" aria-hidden="true"></i>
+</a>
+
+     
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
