@@ -1,1 +1,0 @@
-This portfolio website is designed to present the professional profile of Melchizedek, a passionate web developer with expertise in front-end and back-end technologies. The website includes sections about me, my skills, projects, and ways to get in touch.
